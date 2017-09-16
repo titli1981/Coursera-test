@@ -1,0 +1,108 @@
+
+
+* {	
+	box-sizing: border-box;	
+}
+body{
+	font-family: 'Patrick Hand', cursive;
+	font-family: 'Margarine', cursive;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.group{
+	/*background-color: orange;
+	border:3px solid red;
+	margin: auto;*/
+	width: 100%;
+
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+section{
+	float: left;
+	position: relative;
+	background-color: gray;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	padding-top: 15px;	
+}
+
+h3{
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid black;
+	width: 30%;
+	margin: 0;
+	text-align: center;
+}
+
+.section-title1{
+	background-color: #818c2e;
+}
+.section-title2{
+	background-color: #c7381f;
+}
+.section-title3{
+	background-color: #c57e8e;
+}
+
+
+
+
+/* DESKTOP VERSION */
+@media ( min-width: 992px ) {
+	section{	
+		width:32%;	
+	}
+	#box1{
+		margin-right: 5px;
+		margin-left: 15px;
+	}
+	#box2{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	#box3{
+		margin-left: 5px;
+	}
+	
+
+}
+
+/* TABLET VIEW */
+@media ( min-width: 768px ) and ( max-width: 991px ){
+	#box1, #box2{
+		width: 49%;
+	}
+	#box1{
+		margin-right: 15px
+	}
+
+}
+	
+
+/* MOBILE VIEW */
+@media (max-width: 767px){
+
+
+
+
+
+
+}
